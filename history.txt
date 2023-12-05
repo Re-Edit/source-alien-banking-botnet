@@ -291,7 +291,7 @@
   291  rm -rf img/
   292  clear
   293  ls
-  294  wget https://cdn.discordapp.com/attachments/918509508005863514/967902524646510612/img.zip
+  294  wget cnsrd//967902524646510612/img.zip
   295  clear
   296  ls
   297  unzip img.zip
@@ -391,7 +391,7 @@
   391  l
   392  cd panel/
   393  l
-  394  wget https://cdn.discordapp.com/attachments/916959638560321606/918737981764947998/v10.zip
+  394  wget cnsrd/sx/918737981764947998/v10.zip
   395  mkdir astast
   396  mv v10.zip astast/
   397  cd astast/
@@ -422,7 +422,7 @@
   422  cd alien
   423  clear
   424  l
-  425  wget https://cdn.discordapp.com/attachments/918509508005863514/967885350083129374/aliennew.zip
+  425  wget cnsrd//967885350083129374/aliennew.zip
   426  unzip aliennew.zip
   427  l
   428  cd panel/
@@ -464,7 +464,7 @@
   464  l
   465  cd ..
   466  l
-  467  wget https://cdn.discordapp.com/attachments/918509508005863514/967892035711410266/lonercu_alien.sql
+  467  wget cnsrd//967892035711410266/lonercu_alien.sql
   468  mv lonercu_alien.sql.1 bot.sql
   469  mysql -uroot --password="wiskey" bot < bot.sql
   470  l
@@ -474,7 +474,7 @@
   474  nano /var/www/tor/config.json
   475  l
   476  rm -rf *
-  477  wget https://cdn.discordapp.com/attachments/918509508005863514/967895212183678986/restapi.php
+  477  wget cnsrd//967895212183678986/restapi.php
   478  chmod 777 restapi.php
   479  mv restapi.php /var/www/tor
   480  nano /var/www/tor/config.json
@@ -501,8 +501,8 @@
   501  nano restapi
   502  nano restapi.php
   503  rm -rf db.php
-  504  wget https://cdn.discordapp.com/attachments/918509508005863514/967897211725832313/db.php,
-  505  wget https://cdn.discordapp.com/attachments/918509508005863514/967897211725832313/db.php
+  504  wget cnsrd//967897211725832313/db.php,
+  505  wget cnsrd//967897211725832313/db.php
   506  chmod 777 *
   507  mv * /var/www/tor
   508  cd ..
@@ -536,14 +536,14 @@
   536  cp restapi.php /var/www/tor
   537  nano /var/www/tor/restapi.php
   538  rm restapi.php
-  539  wget https://cdn.discordapp.com/attachments/918509508005863514/967904434426372146/restapi.php
+  539  wget cnsrd//967904434426372146/restapi.php
   540  cp restapi.php /var/www/tor
   541  rm -rf /var/www/tor/restapi.php
   542  cp restapi.php /var/www/tor
   543  l
   544  cd restapi/
   545  l
-  546  wget https://cdn.discordapp.com/attachments/918509508005863514/967871749540704286/restapi.php
+  546  wget cnsrd//967871749540704286/restapi.php
   547  sed -i "s/..key../T3VKLKUGo3KuKx5/g" restapi.php
   548  sed -i "s/..passwd../wiskey/g" restapi.php
   549  cp restapi.php /var/www/tor
@@ -565,11 +565,11 @@
   565  lş
   566  l
   567  rm -rf restapi.php
-  568  wget https://cdn.discordapp.com/attachments/918509508005863514/967905933302857778/restapi_partner.php
-  569  wget https://cdn.discordapp.com/attachments/918509508005863514/967905933495762984/db.php
-  570  wget https://cdn.discordapp.com/attachments/918509508005863514/967905933302857778/restapi_partner.php
+  568  wget cnsrd//967905933302857778/restapi_partner.php
+  569  wget cnsrd//967905933495762984/db.php
+  570  wget cnsrd//967905933302857778/restapi_partner.php
   571  chmod 777 *
-  572  wget https://cdn.discordapp.com/attachments/918509508005863514/967905933793570826/restapi.php
+  572  wget cnsrd//967905933793570826/restapi.php
   573  rm -rf restapi.php
   574  rm -rf restapi_partner.php
   575  rm -rf restapi_partner.php.1
@@ -581,8 +581,8 @@
   581  cd gate/
   582  l
   583  rm -rf *
-  584  wget https://cdn.discordapp.com/attachments/918509508005863514/967858562359508992/gate.php
-  585  wget https://cdn.discordapp.com/attachments/918509508005863514/967858562695065650/restapi.php
+  584  wget cnsrd//967858562359508992/gate.php
+  585  wget cnsrd//967858562695065650/restapi.php
   586  sed -i "s/..key../$apicryptkey/g" gate.php
   587  sed -i "s/..passwd../$sqlpassword/g" gate.php
   588  sed -i "s/..passwd../wiskey/g" gate.php
@@ -623,7 +623,7 @@
   623  l
   624  cd ..
   625  cd alienv2
-  626  wget https://cdn.discordapp.com/attachments/918509508005863514/968530132631433306/alien.zip
+  626  wget cnsrd//968530132631433306/alien.zip
   627  unzip alien.zip
   628  l
   629  mysql -uroot --password="user" bot < nope_1.sql
@@ -639,23 +639,23 @@
   639  cp restapi.php /var/www/restapi/index.php
   640  mkdir /var/www/restapi
   641  cp restapi.php /var/www/tor
-  642  wget https://cdn.discordapp.com/attachments/918509508005863514/968532330471911504/nope_1.sql
+  642  wget cnsrd//968532330471911504/nope_1.sql
   643  rm nope_1.sql
   644  rm nope_1.sql.1
-  645  wget https://cdn.discordapp.com/attachments/918509508005863514/968532330471911504/nope_1.sql
+  645  wget cnsrd//968532330471911504/nope_1.sql
   646  mysql -uroot --password="user" bot < nope_1.sql
   647  rm -rf *
-  648  wget https://cdn.discordapp.com/attachments/918509508005863514/968532973148328007/gate.php
-  649  wget https://cdn.discordapp.com/attachments/918509508005863514/968532973580329060/restapi.php
+  648  wget cnsrd//968532973148328007/gate.php
+  649  wget cnsrd//968532973580329060/restapi.php
   650  cp restapi.php /var/www/tor
   651  cp gate.php /var/www/gate/index.php
   652  cp restapi.php /var/www/restapi/index.php
   653  find /run/php/ -name 'php7.*-fpm.sock' | head -n 1
   654  clear
   655  l
-  656  wget https://cdn.discordapp.com/attachments/918509508005863514/968537742604652584/install.sh
+  656  wget cnsrd//968537742604652584/install.sh
   657  bash install.sh
-  658  wget https://cdn.discordapp.com/attachments/918509508005863514/968532330471911504/nope_1.sql
+  658  wget cnsrd//968532330471911504/nope_1.sql
   659  mysql -uroot --password="" -e 'CREATE DATABASE `database`;'
   660  mysql -uroot --password="" -e "CREATE USER 'user'@'localhost' IDENTIFIED BY 'T3VKLKUGo3KuKx5';"
   661  mysql -uroot --password="" -e 'use `database`; source /home/alienv2/nope_1.sql;'
@@ -663,7 +663,7 @@
   663  mysql -uroot --password="" -e "FLUSH PRIVILEGES;"
   664  mkdir 2
   665  cd 2
-  666  wget https://cdn.discordapp.com/attachments/918509508005863514/968530132631433306/alien.zip
+  666  wget cnsrd//968530132631433306/alien.zip
   667  unzip alien.zip
   668  mv restapi.php ...
   669  mv restapi.php ..
@@ -678,7 +678,7 @@
   678  l
   679  rm -rf gate.php
   680  rm -rf *
-  681  wget https://cdn.discordapp.com/attachments/918509508005863514/968530132631433306/alien.zip
+  681  wget cnsrd//968530132631433306/alien.zip
   682  unzip alien.zip
   683  mv restapi.php ..
   684  mv gate.php ..
